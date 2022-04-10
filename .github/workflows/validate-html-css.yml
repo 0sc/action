@@ -14,7 +14,6 @@ jobs:
       - name: HTML5 Validation
         uses: Cyb3r-Jak3/html5validator-action@v7.1.0
         with:
-          root: /
           log_level: DEBUG
 
   validateCSS:
