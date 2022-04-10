@@ -22,7 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: CSS Validation
-        uses: Cyb3r-Jak3/html5validator-action
+        uses: Cyb3r-Jak3/html5validator-action@master
         with:
           root: assets/css
           css: true
