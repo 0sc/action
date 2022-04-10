@@ -1,4 +1,4 @@
-name: Validate HTML and CSS
+name: "Validate HTML and CSS"
 
 on:
   push:
@@ -15,6 +15,7 @@ jobs:
         uses: Cyb3r-Jak3/html5validator-action@v7.1.0
         with:
           log_level: DEBUG
+          root: .
 
   validateCSS:
     runs-on: ubuntu-latest
@@ -25,4 +26,4 @@ jobs:
         with:
           root: assets/css
           css: true
-          log_level: DEBUG
+          # log_level: DEBUG
