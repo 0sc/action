@@ -1,1 +1,4 @@
-p { maxwidth: 60em; }
+html,
+body {
+  height: 100%;
+}
