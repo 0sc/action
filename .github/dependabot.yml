@@ -4,3 +4,7 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    assignees:
+      - "0sc"
+    commit-message:
+      prefix: "Github Action Update"
